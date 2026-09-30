@@ -603,12 +603,12 @@
         <div class="anime-speech-tail"></div>
         <h1 class="anime-title">Oi! Eu sou o Pedro! 👶✨</h1>
         <p class="anime-paragraph">
-          Estou quase chegando nesse mundo!<br>
-          <strong>E você? Qual é o seu nome?</strong>
+          Já estou quase chegando!<br>
+          Enquanto isso, me diz seu nome?
         </p>
 
         <div>
-          <span class="disclaimer">💡 Se for parente, diga aí o grau de parentesco antes do nome. Ex: Vó Marcela, Titio Lucas</span>
+          <span class="disclaimer">💡 (Se você for da minha família, coloca seu grau de parentesco antes do nome, tá?)</span>
         </div>
 
         <div class="name-entry-box">
@@ -617,7 +617,7 @@
               type="text" 
               id="visitor-name" 
               class="anime-input" 
-              placeholder="Digite seu nome (ou parentesco + nome)..." 
+              placeholder="Digite seu nome (ex: Vó Marcela, Titio Lucas)..." 
               autocomplete="off"
               onkeypress="if(event.key === 'Enter') handleNameSubmit(event)"
             />
@@ -638,11 +638,10 @@
 
       <div class="anime-box">
         <div class="anime-speech-tail"></div>
-        <h1 class="anime-title" id="welcome-title">Oi Amigo!</h1>
+        <h1 class="anime-title" id="welcome-title">Oi!</h1>
         <p class="anime-paragraph">
-          Seja muito bem-vindo(a) à minha lista de presentes!<br>
-          Antes de tudo, quero agradecer de coração a você por estar aqui!<br>
-          <strong style="color: var(--baby-blue);">Isso me deixa muito feliz! 🥰</strong>
+          <strong style="color: var(--baby-blue); font-size: 1.3rem;">Estou tão feliz que você está aqui! 🥰</strong><br>
+          Seja muito bem-vindo(a) à minha lista de presentes!
         </p>
         <p class="anime-paragraph" style="font-size: 1rem; color: var(--text-muted); margin-top: -6px;">
           É só clicar no botão abaixo para ver as opções que papai e mamãe separaram!
@@ -665,7 +664,7 @@
 
       <!-- Caixa Principal de Opções/Categorias -->
       <div class="anime-box" style="margin-bottom: 24px; padding: 20px;">
-        <h2 class="anime-title" style="font-size: 1.8rem; margin-bottom: 6px;">Escolha o que deseja ver</h2>
+        <h2 class="anime-title" style="font-size: 1.8rem; margin-bottom: 6px;">Estou tão feliz que você está aqui!</h2>
         <p style="color: var(--text-muted); font-size: 0.95rem;">
           Tudo fica misturado por padrão, mas você pode filtrar pelas categorias abaixo se quiser:
         </p>
@@ -679,6 +678,16 @@
       <!-- Box com a Lista de Itens -->
       <div class="gift-grid" id="gifts-container">
         <!-- Renderizado dinamicamente via JS -->
+      </div>
+
+      <!-- Agradecimento no fim da lista -->
+      <div class="anime-box" style="margin-top: 32px; padding: 26px 20px; text-align: center;">
+        <p class="anime-paragraph" style="font-size: 1.3rem; font-weight: 800; color: var(--baby-blue); margin-bottom: 6px;">
+          Não vejo a hora de a gente se conhecer!
+        </p>
+        <p style="font-size: 1.2rem; color: #fff; font-weight: 800;">
+          Muito obrigado, tá? 👶💙✨
+        </p>
       </div>
     </div>
 
